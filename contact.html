@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="contact.css">
 </head>
+
 <body>
-    
+
     <nav class="container">
 
         <nav id="me" class="bar">
@@ -22,27 +24,30 @@
             <p>Contact</p>
         </nav>
 
-        <div id="contactMe">
+        <div class='contactPage' id="contactMe">
             <p>Contact Me</p>
         </div>
 
-        <div id="name">
-            <p>Name:</p>
+        <div class='contactPage' id='name'>
+            <label for="nameInput">Name:</label>
+            <input type="text" name="nameInput" id="nameInput">
         </div>
 
-        <div id="email">
-            <p>Email:</p>
+        <div class='contactPage' id='email'>
+            <label for="emailInput">Email:</label>
+            <input type="text" name="emailInput" id="emailInput">
         </div>
 
-        <div id="message">
-            <p>Message:</p>
+        <div class='contactPage' id='message'>
+            <label for="messageInput">Message:</label>
+            <textarea name="messageInput" id="messageInput" cols="30" rows="10"></textarea>
         </div>
 
-        <button id='button'>Submit</button>
-        
+        <button class='contactPage' id='button'>Submit</button>
+
         <button id='likeButton'>Questions</button>
     </nav>
-    
+
 
 </body>
 <script src="contact.js"></script>

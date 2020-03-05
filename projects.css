@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(60, 112, 36);
+    background-color: rgb(178, 211, 163);
     text-align: center;
     font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -8,18 +8,17 @@ body{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(5,1fr);
+    height: 80vh;
 }
 
 .bar{
     border-radius: 50px;
-    font-size: large;
-    padding: 5px;
     font-weight: bolder;
-    font-size: 29px;
+    font-size: 24px;
     color: rgb(5, 46, 7);
     background-color: rgb(84, 173, 96);
-    border: solid 14px rgb(7, 82, 26);
-    margin-top: 10px;
+    border: solid 16px rgb(7, 82, 26);
+    margin-top: 16px;
     }
 
 #me{
@@ -47,7 +46,7 @@ body{
     color: rgb(5, 46, 7);
     background-color: rgb(84, 173, 96);
     border: solid 14px rgb(7, 82, 26);
-    margin-top: 15%;
+    margin-top: 45%;
     margin-right: 20%;
     margin-left: 20%;
     padding: 5%;
@@ -62,7 +61,7 @@ body{
     color: rgb(5, 46, 7);
     background-color: rgb(84, 173, 96);
     border: solid 14px rgb(7, 82, 26);
-    margin-top: 15%;
+    margin-top: 45%;
     margin-right: 20%;
     margin-left: 20%;
     padding: 5%;
@@ -78,7 +77,7 @@ body{
     color: rgb(5, 46, 7);
     background-color: rgb(84, 173, 96);
     border: solid 14px rgb(7, 82, 26);
-    margin-top: 15%;
+    margin-top: 45%;
     margin-right: 20%;
     margin-left: 20%;
     padding: 5%;
@@ -93,12 +92,13 @@ body{
     color: rgb(5, 46, 7);
     background-color: rgb(84, 173, 96);
     border: solid 14px rgb(7, 82, 26);
-    margin-left: 20%;
-    margin-right: 20%;
     border-radius: 35px;
-    padding-top: 25px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 15px;
     font-size: 20px;
     font-weight: bold;
+    margin-top: 160px;
 }
 
 
@@ -119,10 +119,15 @@ body{
     background-color: rgb(84, 173, 96);
     border: solid 14px rgb(7, 82, 26);
     border-radius: 35px;
-    padding-top: 25px;
     font-size: 20px;
     font-weight: bold;
-    
+    width: 100%;
+    margin-top: 160px;
+    margin-right: 35%;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    border-radius: 35px;
+
 }
 
 
@@ -131,6 +136,7 @@ body{
     grid-row: 5;
     color: rgb(5, 46, 7);
     font-size: 115%;
+    padding-left: 10%;
 }
 
 #proj3{
@@ -142,9 +148,10 @@ body{
     margin-right: 20%;
     margin-left: 20%;
     border-radius: 35px;
-    padding-top: 25px;
+    padding-top: 15px;
     font-size: 20px;
     font-weight: bold;
+    margin-top: 160px;
 }
 
 #des3{
@@ -154,19 +161,18 @@ body{
     padding-left: 25%;
     padding-right: 25%;
     font-size: 115%;
+    
 }
 
 #likeButton{
     color: rgb(5, 46, 7);
     background-color: rgb(84, 173, 96);
-    border: solid 14px rgb(7, 82, 26);
-    padding: 5%;
-    border-radius: 25px;
-    padding-top: 26px;
+    border: solid 10px rgb(7, 82, 26);
+    border-radius: 35px;
     font-weight: bolder; 
-    font-size: 25px;
-    margin-right: 40px;
-    margin-left: 35px;
-    margin-top: 30px;
-    margin-bottom: 25px;
+    font-size: 17px;
+    width: 40%;
+    height: 37%;
+    margin-top: 4%;
+    
 }
