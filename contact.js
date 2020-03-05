@@ -1,5 +1,5 @@
 let buttonReview = document.querySelector('#likeButton');
-console.log(buttonReview);
+
 buttonReview.addEventListener('click', messageOnClick);
 
 function messageOnClick(event) {
